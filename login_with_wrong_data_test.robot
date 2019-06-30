@@ -16,7 +16,7 @@ ${ERROR_MSG}    //header[@role='alert']
 ${MSG}    Nieprawidłowy adres e-mail lub hasło
 
 *** Test Cases ***
-Valid Login
+Login with wrong Credentials
     Open Browser To Login Page
     Input Username    test@test.pl
     Input Password    test
